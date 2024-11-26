@@ -1,4 +1,3 @@
-import numpy as np
 
 def divide_row_by_diagonal(matrix, k):
     """Разделяет элементы k-й строки матрицы на диагональный элемент этой строки."""
