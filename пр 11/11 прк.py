@@ -71,7 +71,7 @@ entry2 = tk.Entry(tab1)
 entry2.pack()
 
 operation_var = tk.StringVar(tab1)
-operation_var.set("+") # default value
+operation_var.set("+") # значение по умолчанию
 options = ["+", "-", "*", "/"]
 operation_menu = tk.OptionMenu(tab1, operation_var, *options)
 operation_menu.pack()
