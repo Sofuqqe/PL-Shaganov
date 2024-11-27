@@ -18,7 +18,7 @@ for i in range(n):
         s+=a[i][j]
 print(s)
 print('2 Задание')
-n=int(input())#Столбцы
+n=int(input())#Столбы
 m=int(input())#Строки
 a=[]
 for i in range(n):
