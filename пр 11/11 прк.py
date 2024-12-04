@@ -55,7 +55,7 @@ def open_file():
         except Exception as e: #Добавление универсального обработчика исключений - всегда хорошая идея.
             messagebox.showerror("Error", f"An error occurred: {e}")
 
-# --- GUI Setup ---
+# --- GUI  ---
 root = tk.Tk()
 root.title("Шаганов Кирилл Александрович") 
 notebook = ttk.Notebook(root)
